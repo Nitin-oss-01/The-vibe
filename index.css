@@ -1,0 +1,140 @@
+/* src/index.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .bg-gradient {
+    background: linear-gradient(to top right, #6366f1, #a855f7, #ec4899);
+  }
+  
+  .glass-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  }
+  /* Add this CSS in your global CSS file (e.g., src/index.css) */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+/* src/App.css or src/components/Navbar.css */
+.navbar {
+    background-color: #f8f9fa; /* Light background for a soothing look */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .navbar:hover {
+    background-color: #e9ecef; /* Slight darker shade on hover */
+  }
+  
+  .navbar-brand {
+    font-family: 'Arial', sans-serif;
+    color: #007bff;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #555;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+    background-color: #f1f1f1;
+    border-radius: 25px;
+  }
+  
+  .form-control {
+    border-radius: 25px;
+    padding-left: 20px;
+    transition: width 0.3s ease;
+  }
+  
+  .form-control:focus {
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.6);
+  }
+  
+  .btn-outline-primary {
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+  }
+    
+  /* src/App.css or src/components/HomePage.css */
+.hero-section {
+    position: relative;
+    color: white;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-section .btn {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border-radius: 25px;
+  }
+  
+  .hero-section .btn:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: 200px;
+    transition: all 0.3s ease;
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.1);
+  }
+/* src/App.css or src/components/ShopCard.css */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+  }
+  
+  .card-footer .btn {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+    
+    
+  
